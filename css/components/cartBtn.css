@@ -1,0 +1,27 @@
+.cartBtn {
+    padding: 7px 10px;
+    font-size: 25px;
+    border: none;
+    position: relative;
+}
+
+.cartBtn:hover {
+    cursor: pointer;
+    background-color: rgb(190, 187, 187);
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+.active {
+    border: 1px solid black;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://iconape.com/wp-content/png_logo_vector/shopping-cart.png">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Serif+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components/cart.css">
+    <link rel="stylesheet" href="css/components/cartBtn.css">
+</head>
+
+<body>
+    <section class="cart-section">
+        <button class="cartBtn"><i class="fa fa-shopping-cart"></i><span class="badge">5</span></button>
+        <section class="cart">
+            <h1 id="headline">My cart (5 items)</h1>
+            <button id="scrollUpBtn" class="scrollBtn" disabled><i class="fa fa-angle-up"></i></button>
+            <ul class="cart-items">
+                <li id="item1" class="item inner">
+                    <article>
+                        <img src="images/gt-s_set.png" alt="Set of GT-S Series Cross Drilled">
+                    </article>
+                    <article class="product-info">
+                        <h2 class="name">Set of GT-S Series Cross Drilled</h2>
+                        <ul class="attrGroup">
+                            <li class="attribute">Brand: Brembo</li>
+                            <li class="attribute">Color: Red</li>
+                        </ul>
+                        <p class="price">1 x $1770.00</p>
+                    </article>
+                </li>
+                <li id="item2" class="item inner">
+                    <article>
+                        <img src="images/gt-s_just.png" alt="Just Disk GT-S Cross Drilled">
+                    </article>
+                    <article class="product-info">
+                        <h2 class="name">Just Disk GT-S Cross Drilled</h2>
+                        <ul class="attrGroup">
+                            <li class="attribute">Brand: Barbour International</li>
+                            <li class="attribute">Size: 405mm</li>
+                        </ul>
+                        <p class="price">1 x $950.00</p>
+                    </article>
+                </li>
+                <li id="item3" class="item inner">
+                    <article>
+                        <img src="images/gt_slotted.png" alt="GT Slotted 2 Piece Brake Rotors">
+                    </article>
+                    <article class="product-info">
+                        <h2 class="name">GT Slotted 2 Piece Brake Rotors</h2>
+                        <ul class="attrGroup">
+                            <li class="attribute">Brand: AMG</li>
+                            <li class="attribute">Color: Gold</li>
+                        </ul>
+                        <p class="price">2 x $1670.00</p>
+                    </article>
+                </li>
+                <li id="item4" class="item outer">
+                    <article>
+                        <img src="images/break_fluid.png" alt="Break Fluid">
+                    </article>
+                    <article class="product-info">
+                        <h2 class="name">Synthetic Break Fluid</h2>
+                        <ul class="attrGroup">
+                            <li class="attribute">Brand: Valvoline</li>
+                            <li class="attribute">Color: 300ml</li>
+                        </ul>
+                        <p class="price">1 x $10.00</p>
+                    </article>
+                </li>
+                <li id="item5" class="item outer">
+                    <article>
+                        <img src="images/motor_oil.png" alt="Motor Oil">
+                    </article>
+                    <article class="product-info">
+                        <h2 class="name">Motor Oil</h2>
+                        <ul class="attrGroup">
+                            <li class="attribute">Brand: Nexton</li>
+                            <li class="attribute">Size: 5L</li>
+                        </ul>
+                        <p class="price">2 x $53.99</p>
+                    </article>
+                </li>
+            </ul>
+            <button id="scrollDownBtn" class="scrollBtn"><i class="fa fa-angle-down"></i></button>
+            <article class="editNCheckBtns">
+                <button id="editBtn">Edit Cart</button>
+                <button id="checkoutBtn">CHECKOUT</button>
+            </article>
+        </section>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
